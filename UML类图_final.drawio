@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-04T07:55:48.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="kxGCJo49n8ToJ6GGV20o" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-04T07:56:15.491Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="LMNLrvV_Dc60BWSKhz-o" version="22.0.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="963" dy="1113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,8 +21,8 @@
         </mxCell>
         <mxCell id="G242f99MMeTT95p6bvFd-3" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="570" y="500" as="sourcePoint" />
-            <mxPoint x="570" y="400" as="targetPoint" />
+            <mxPoint x="620" y="570" as="sourcePoint" />
+            <mxPoint x="620" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="G242f99MMeTT95p6bvFd-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BlockCore&lt;/b&gt;&lt;/p&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;(主协议)&lt;/b&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;+ getBlock(uint256): void&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -32,13 +32,19 @@
           <mxGeometry x="130" y="640" width="270" height="95" as="geometry" />
         </mxCell>
         <mxCell id="G242f99MMeTT95p6bvFd-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BlockOwnership&lt;/b&gt;&lt;/p&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;(管理积木的归属与转移)&lt;/b&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;+ balanceOf(Address): uint256&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ transfer(address, uint256): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ approve(address, uint256): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ transferFrom(address, address, uint256): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ totalSupply(): uint&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ownerOf(uint256): address&lt;/p&gt;&amp;nbsp;+ tokenOfOwner(address): uint256[]&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="130" y="310" width="270" height="150" as="geometry" />
+          <mxGeometry x="130" y="430" width="270" height="150" as="geometry" />
         </mxCell>
         <mxCell id="G242f99MMeTT95p6bvFd-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BlockAuction&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;(对外提供拍卖能力)&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getBlock(uint256):void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="690" y="440" width="160" height="160" as="geometry" />
+          <mxGeometry x="710" y="500" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="G242f99MMeTT95p6bvFd-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BlockCore&lt;/b&gt;&lt;/p&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;(主协议)&lt;/b&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getBlock(uint256): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="690" y="680" width="160" height="70" as="geometry" />
+          <mxGeometry x="710" y="740" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G242f99MMeTT95p6bvFd-9" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G242f99MMeTT95p6bvFd-5" target="G242f99MMeTT95p6bvFd-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="264.5" y="600" as="sourcePoint" />
+            <mxPoint x="264.5" y="500" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
