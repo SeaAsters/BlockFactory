@@ -1,44 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2023-11-04T07:54:29.013Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="kuRsdOcJK1ag8OqMV4o9" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-04T08:32:33.141Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="kTB51gGLL2hV7gZQ14t6" version="22.0.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1376" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1213" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--12" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7JB2jiOyO1GIOqcpzcJS-23" target="7JB2jiOyO1GIOqcpzcJS-18" edge="1">
+        <mxCell id="7JB2jiOyO1GIOqcpzcJS-27" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7JB2jiOyO1GIOqcpzcJS-31" target="7JB2jiOyO1GIOqcpzcJS-28">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="265" y="995" as="sourcePoint" />
-            <mxPoint x="264.65999999999997" y="825" as="targetPoint" />
+            <mxPoint x="595" y="950" as="sourcePoint" />
+            <mxPoint x="594.66" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7JB2jiOyO1GIOqcpzcJS-18" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BlockMinting&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;(创建积木)&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- PROMO_CREATION_LIMIT:uint256 = 5000&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;+ createPromoBlock(unit8, address): void" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="130" y="825" width="270" height="100" as="geometry" />
+        <mxCell id="7JB2jiOyO1GIOqcpzcJS-28" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BlockMinting&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;(创建积木)&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- PROMO_CREATION_LIMIT:uint256 = 5000&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;+ createPromoBlock(unit8, address): void" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="780" width="270" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="7JB2jiOyO1GIOqcpzcJS-19" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="7JB2jiOyO1GIOqcpzcJS-25">
+        <mxCell id="7JB2jiOyO1GIOqcpzcJS-29" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7JB2jiOyO1GIOqcpzcJS-28" target="7JB2jiOyO1GIOqcpzcJS-35">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="264.5" y="825" as="sourcePoint" />
-            <mxPoint x="264.5" y="725" as="targetPoint" />
+            <mxPoint x="580" y="820" as="sourcePoint" />
+            <mxPoint x="605.25" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7JB2jiOyO1GIOqcpzcJS-20" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="7JB2jiOyO1GIOqcpzcJS-31" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BlockCore&lt;/b&gt;&lt;/p&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;(主协议)&lt;/b&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;+ getBlock(uint256): void&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="525" y="930" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="7JB2jiOyO1GIOqcpzcJS-32" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BlockOwnership&lt;/b&gt;&lt;/p&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;(管理积木的归属与转移)&lt;/b&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;+ balanceOf(Address): uint256&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ transfer(address, uint256): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ approve(address, uint256): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ transferFrom(address, address, uint256): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ totalSupply(): uint&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ownerOf(uint256): address&lt;/p&gt;&amp;nbsp;+ tokenOfOwner(address): uint256[]&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="400" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7JB2jiOyO1GIOqcpzcJS-34" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7JB2jiOyO1GIOqcpzcJS-35" target="7JB2jiOyO1GIOqcpzcJS-32">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="570" y="500" as="sourcePoint" />
-            <mxPoint x="570" y="400" as="targetPoint" />
+            <mxPoint x="605" y="600" as="sourcePoint" />
+            <mxPoint x="604.5" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7JB2jiOyO1GIOqcpzcJS-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BlockAuction&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;(对外提供拍卖能力)&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getBlock(uint256):void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="490" y="70" width="160" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="7JB2jiOyO1GIOqcpzcJS-23" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BlockCore&lt;/b&gt;&lt;/p&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;(主协议)&lt;/b&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;+ getBlock(uint256): void&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="185" y="1010" width="160" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="7JB2jiOyO1GIOqcpzcJS-24" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BlockCore&lt;/b&gt;&lt;/p&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;(主协议)&lt;/b&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getBlock(uint256): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="690" y="600" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="7JB2jiOyO1GIOqcpzcJS-25" value="&lt;p align=&quot;center&quot; style=&quot;margin: 4px 0px 0px;&quot;&gt;&lt;b&gt;BlockAuction&lt;/b&gt;&lt;/p&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;(对外提供拍卖能力)&lt;/b&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;/p&gt;&lt;hr&gt;&lt;div&gt;&amp;nbsp;+setSaleAuctionAddress(address): void&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ createSaleAuction(uint256, uint256): void&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ withdrawAuctionBalance():void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="130" y="640" width="270" height="95" as="geometry" />
-        </mxCell>
-        <mxCell id="7JB2jiOyO1GIOqcpzcJS-26" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BlockOwnership&lt;/b&gt;&lt;/p&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;(管理积木的归属与转移)&lt;/b&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;+ balanceOf(Address): uint256&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ transfer(address, uint256): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ approve(address, uint256): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ transferFrom(address, address, uint256): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ totalSupply(): uint&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ownerOf(uint256): address&lt;/p&gt;&amp;nbsp;+ tokenOfOwner(address): uint256[]&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="130" y="310" width="270" height="150" as="geometry" />
+        <mxCell id="7JB2jiOyO1GIOqcpzcJS-35" value="&lt;p align=&quot;center&quot; style=&quot;margin: 4px 0px 0px;&quot;&gt;&lt;b&gt;BlockAuction&lt;/b&gt;&lt;/p&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;(对外提供拍卖能力)&lt;/b&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;/p&gt;&lt;hr&gt;&lt;div&gt;&amp;nbsp;+setSaleAuctionAddress(address): void&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ createSaleAuction(uint256, uint256): void&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ withdrawAuctionBalance():void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="607.5" width="270" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
