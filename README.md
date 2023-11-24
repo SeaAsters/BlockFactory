@@ -1,2 +1,2 @@
 # BlockFactory
-This is a repository of engineering practice.
+This is a repository for draw.io.
